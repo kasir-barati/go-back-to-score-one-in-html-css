@@ -81,6 +81,13 @@ body {
   border-radius: var(--border-radius);
 }
 
+.file-uploader {
+  width: calc(100% - 2px);
+  height: 30px;
+  border-radius: var(--border-radius);
+  border: 1px solid aquamarine;
+}
+
 .form-buttons {
   display: flex;
   justify-content: center;
