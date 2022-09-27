@@ -1,0 +1,29 @@
+:root {
+  --general-border-radios: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  background-color: blue;
+  background: linear-gradient(blue, white 600px, white);
+}
+
+#wrapper {
+  width: 960px;
+  min-height: 1200px;
+  background-color: silver;
+  border-radius: var(--general-border-radios);
+  padding: 5px;
+  margin: 5px auto 5px auto;
+  background: linear-gradient(
+    white 0px,
+    rgb(127, 147, 158) 600px,
+    rgb(127, 147, 158)
+  );
+  box-shadow: 5px 5px 5px black;
+}
