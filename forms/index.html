@@ -21,6 +21,7 @@
             id="email"
             placeholder="kasir@barati.com"
             class="textbox"
+            required="required"
           />
         </div>
       </div>
@@ -35,6 +36,22 @@
             id="password"
             placeholder="A strong password"
             class="textbox"
+            required="required"
+          />
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="password">Confirm password</label>
+        </div>
+        <div class="form-input">
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="A strong password"
+            class="textbox"
+            required="required"
           />
         </div>
       </div>
@@ -51,6 +68,7 @@
               id="genderOther"
               value="other"
               checked="checked"
+              required="required"
             />
           </div>
           <div class="form-input-radio ml-5">
@@ -60,11 +78,18 @@
               name="gender"
               id="genderFemale"
               value="female"
+              required="required"
             />
           </div>
           <div class="form-input-radio ml-5">
             <label for="genderMale">Male</label>
-            <input type="radio" name="gender" id="genderMale" value="male" />
+            <input
+              type="radio"
+              name="gender"
+              id="genderMale"
+              value="male"
+              required="required"
+            />
           </div>
         </div>
       </div>
@@ -73,8 +98,13 @@
           <label for="marriageStatus">Marriage status</label>
         </div>
         <div class="form-input">
-          <select name="marriageStatus" id="marriageStatus" class="dropdown">
-            <option value="#" selected="selected">Choose one ...</option>
+          <select
+            name="marriageStatus"
+            id="marriageStatus"
+            class="dropdown"
+            required="required"
+          >
+            <option value="#">Choose one ...</option>
             <option value="single">Single</option>
             <option value="divorced">Divorced</option>
             <option value="married">Married</option>
@@ -104,6 +134,7 @@
             id="bio"
             class="textarea"
             maxlength="500"
+            required="required"
           ></textarea>
         </div>
       </div>
