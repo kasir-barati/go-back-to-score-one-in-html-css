@@ -3,6 +3,19 @@
   --menu-height: 40px;
 }
 
+.my-10 {
+  margin: 10px 0 10px 0;
+}
+
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
 .mb-5 {
   margin-bottom: 5px;
 }
@@ -116,4 +129,59 @@ body {
   transition-duration: 1s;
   color: greenyellow;
   text-shadow: 5px 5px 5px black;
+}
+
+#main {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar {
+  width: 273px;
+  background-color: #3a5866;
+  border-radius: var(--general-border-radios);
+  display: flex;
+}
+
+#navbar > ul {
+  width: 100%;
+}
+
+#navbar > ul > li {
+  list-style-type: none;
+}
+
+#navbar > ul > li > a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  border-radius: var(--general-border-radios) var(--general-border-radios) 0 0;
+  background: linear-gradient(gray, #3a5866);
+  transition-duration: 1s;
+}
+
+#navbar > ul > li > a:hover {
+  color: blue;
+  transition-duration: 1s;
+}
+
+#navbar ul ul {
+  font-size: 13px;
+}
+
+#navbar ul ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition-duration: 1s;
+  border-radius: 5px 0 0 5px;
+  padding-left: 5px;
+}
+
+#navbar ul ul li a:hover {
+  background-color: maroon;
+  transition-duration: 1s;
 }
