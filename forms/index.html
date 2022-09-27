@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <form action="#" enctype="text/plain" method="post" class="form p-10 m-10">
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="email">Email</label>
+        </div>
+        <div class="form-input">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="kasir@barati.com"
+            class="textbox"
+          />
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="password">Password</label>
+        </div>
+        <div class="form-input">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="A strong password"
+            class="textbox"
+          />
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label>Gender</label>
+        </div>
+        <div class="form-input">
+          <div class="form-input-radio">
+            <label for="genderOther">Other</label>
+            <input type="radio" name="gender" id="genderOther" value="other" />
+          </div>
+          <div class="form-input-radio">
+            <label for="genderFemale">Female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="genderFemale"
+              value="female"
+            />
+          </div>
+          <div class="form-input-radio">
+            <label for="genderMale">Male</label>
+            <input type="radio" name="gender" id="genderMale" value="male" />
+          </div>
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="marriageStatus">Marriage status</label>
+        </div>
+        <div class="form-input">
+          <select name="marriageStatus" id="marriageStatus" class="dropdown">
+            <option value="#">Choose one ...</option>
+            <option value="single">Single</option>
+            <option value="divorced">Divorced</option>
+            <option value="married">Married</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="familiarityWithUs">Were you familiar with us?</label>
+        </div>
+        <div class="form-input">
+          <input
+            type="checkbox"
+            name="familiarityWithUs"
+            id="familiarityWithUs"
+            checked="checked"
+          />
+        </div>
+      </div>
+      <div class="form-field my-5">
+        <div class="form-label">
+          <label for="bio">Bio</label>
+        </div>
+        <div class="form-input">
+          <textarea name="bio" id="bio" class="textarea"></textarea>
+        </div>
+      </div>
+      <div class="form-buttons">
+        <input type="reset" value="Reset" class="form-button bg-primary" />
+        <input type="submit" value="Submit" class="form-button bg-success" />
+      </div>
+    </form>
+  </body>
+</html>
